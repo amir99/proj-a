@@ -34,6 +34,7 @@ urlpatterns = [
    path('change_block_order', views.change_block_order, name='change-block-order'), 
    path('set_coords/<int:cid>/', views.update_coords, name='set-coords'),
    path('contact', views.get_contact_us_msg, name='contact-us'),
+   path('contacts_tst', views.contact_tst, name='contacts-tst'),
    # re_path(r'^bill-export/$', views.sapta_bill_exp),
    re_path(r'^test/$', views.test),
 ]
